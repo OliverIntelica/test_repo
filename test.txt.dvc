@@ -1,9 +1,5 @@
 outs:
-- md5: 645d4acb8b814c3f112266f408517bc5
-  size: 46
+- md5: b06594f20abfad147193c15f2fc9ea6e
+  size: 54
   hash: md5
   path: test.txt
-  cloud:
-    myremote:
-      etag: 08fda0a9f296fa86031001
-      version_id: '1719436172742781'
