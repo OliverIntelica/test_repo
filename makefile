@@ -44,7 +44,8 @@ push: review-process
 	git commit -m "Weights added with dvc add command" && \
 	conda run -n $(CONDA_ENV) dvc push && \
 	git add test.txt.dvc && \
-	git commit -m "Weights pushed with dvc push -r storage command"
+	git commit -m "Weights pushed with dvc push -r storage command" && \
+	git push
 
 info: review-process
 	@echo "## Checking if DVC is available..."
