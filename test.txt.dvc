@@ -3,3 +3,7 @@ outs:
   size: 54
   hash: md5
   path: test.txt
+  cloud:
+    myremote:
+      etag: 08fde5988c97fa86031001
+      version_id: '1719436226999037'
